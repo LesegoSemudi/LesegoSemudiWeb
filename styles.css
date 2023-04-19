@@ -235,6 +235,7 @@ h2 {
   margin: 0;
   scrollbar-width: none;
   -ms-overflow-style: none;
+  padding: 100;
 }
 
 .col-md-3 {
@@ -307,7 +308,6 @@ body {
   justify-content: center;
   align-items: center;
   height: 80vh; /* set a height for the div */
-  padding: 100px;
 }
 
 .about h2 {
