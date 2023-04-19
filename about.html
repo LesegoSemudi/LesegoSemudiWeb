@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesego Semudi About</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+   <section class="main">
+       <header>
+           <a href="#" class="logo">Lesego</a>
+           <div class="toggleMenu" onclick="menuToggle();"></div>
+
+           <ul class="menu">
+               <li><a href="index.html">Home</a></li>
+               <li><a href="about.html">About</a></li>
+               <li><a href="https://lesegosemudi.github.io/Lesego-Semudi-Portfolio/">Portfolio</a></li>
+               <li><a href="work.html">Work</a></li>
+               <li><a href="contact.html">Contact</a></li>
+           </ul>
+       </header>
+       <div class="about">
+        <h2>"Hi there!😊 I'm a skilled and dedicated app developer with a passion for crafting visually appealing and user-friendly designs. With a strong focus and hardworking attitude, I approach each task with determination to deliver high-quality results. As a UI/UX designer, I have a keen eye for detail and an ability to understand user needs. I am also a creative problem solver and team player, always inspiring those around me to bring their A-game, making me an invaluable asset to any development team."</h2>
+       </div>
+   </section>
+   <script>
+       function menuToggle(){
+           const toggleMenu = document.querySelector('.toggleMenu');
+           const menu = document.querySelector('.menu');
+           toggleMenu.classList.toggle('active')
+           menu.classList.toggle('active')
+       }
+   </script>
+</body>
+</html>
