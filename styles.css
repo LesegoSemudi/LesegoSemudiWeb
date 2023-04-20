@@ -307,8 +307,10 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 80vh; /* set a height for the div */
+  height: calc(100vh - 5px); /* subtract the height of the header */
+  padding: 10px;
 }
+
 
 .about h2 {
   color: white;
