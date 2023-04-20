@@ -303,17 +303,29 @@ body {
   background-attachment: fixed;
 }
 
+
+
 .about {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: calc(100vh - 5px); /* subtract the height of the header */
-  padding: 10px;
 }
 
 
 .about h2 {
   color: white;
+}
+
+@media (min-width: 993px) {
+  .about {
+    max-height: 600px;
+  }
+}
+
+@media (max-width: 767px) {
+  .about {
+    flex-basis: calc(100% - 20px);
+  }
 }
 
 .form {
